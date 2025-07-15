@@ -41,7 +41,7 @@ npm install
 Create a .env file in the root with:
 PORT=5000
 DB_USER=postgres
-DB_PASSWORD=tridib8101
+DB_PASSWORD=PASSWORD
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=eventdb
