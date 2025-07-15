@@ -39,12 +39,12 @@ Edit
 npm install
 2.Configure environment
 Create a .env file in the root with:
-PORT=5000
-DB_USER=postgres
-DB_PASSWORD=PASSWORD
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=eventdb
+PORT,
+DB_USER,
+DB_PASSWORD,
+DB_HOST,
+localhost,
+DB_NAME,
 
 3.Create tables
 node data.js
