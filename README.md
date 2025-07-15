@@ -97,3 +97,28 @@ Response:
     }
   ]
 }
+
+4.Register User for Event
+POST /events/:id/register
+Body:
+{
+  "userId": 1
+}
+Response:
+{
+  "message": "User registered successfully"
+}
+5.Upcoming Events
+GET /events
+Response:
+[
+  {
+    "id": 2,
+    "title": "React Bootcamp",
+    "date": "2025-08-10T10:00:00Z",
+    "location": "Delhi",
+    "capacity": 200,
+    "created_at": "2025-07-15T11:00:00Z"
+  },
+  ...
+]
